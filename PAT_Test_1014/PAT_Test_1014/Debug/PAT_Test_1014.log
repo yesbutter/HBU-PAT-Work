@@ -1,0 +1,7 @@
+﻿  PAT_1014.cpp
+d:\c workspace\hbu-pat-work\pat_test_1014\pat_test_1014\pat_1014.cpp(10): warning C4018: “<”: 有符号/无符号不匹配
+d:\c workspace\hbu-pat-work\pat_test_1014\pat_test_1014\pat_1014.cpp(21): warning C4018: “<”: 有符号/无符号不匹配
+d:\c workspace\hbu-pat-work\pat_test_1014\pat_test_1014\pat_1014.cpp(38): warning C4018: “<”: 有符号/无符号不匹配
+d:\c workspace\hbu-pat-work\pat_test_1014\pat_test_1014\pat_1014.cpp(51): warning C4101: “j”: 未引用的局部变量
+d:\c workspace\hbu-pat-work\pat_test_1014\pat_test_1014\pat_1014.cpp(51): warning C4101: “i”: 未引用的局部变量
+  PAT_Test_1014.vcxproj -> D:\C WorkSpace\HBU-PAT-Work\PAT_Test_1014\Debug\PAT_Test_1014.exe
