@@ -1,0 +1,5 @@
+﻿  PAT_1024.cpp
+d:\c workspace\hbu-pat-work\pat_test_1024\pat_test_1024\pat_1024.cpp(13): warning C4018: “<”: 有符号/无符号不匹配
+d:\c workspace\hbu-pat-work\pat_test_1024\pat_test_1024\pat_1024.cpp(38): warning C4018: “<”: 有符号/无符号不匹配
+d:\c workspace\hbu-pat-work\pat_test_1024\pat_test_1024\pat_1024.cpp(53): warning C4018: “<”: 有符号/无符号不匹配
+  PAT_Test_1024.vcxproj -> D:\C WorkSpace\HBU-PAT-Work\PAT_Test_1024\Debug\PAT_Test_1024.exe
