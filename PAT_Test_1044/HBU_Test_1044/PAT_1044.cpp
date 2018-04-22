@@ -14,6 +14,10 @@ void read(std::string tmp)
 			n = n * 10 + tmp[i] - '0';
 		if (n < 13)
 			std::cout << low_letter[n] << std::endl;
+		else if (n % 13==0)//13整数的时候只输出整数部分
+		{
+			std::cout << high_letter[n/13] << std::endl;
+		}
 		else
 		{
 			std::cout << high_letter[n / 13] << " " << low_letter[n % 13] << std::endl;
@@ -25,11 +29,9 @@ void read(std::string tmp)
 		if (tmp.size() > 5)
 		{			
 			std::string s1, s2;
-			s1= tmp.substr(0, 3);
-			if (tmp.size() == 9)
-				 s2 = tmp.substr(4, 9);
-			else 
-				 s2 = tmp.substr(4, 8);
+			int position = tmp.find(" ");
+			s1= tmp.substr(0, position);
+			s2 = tmp.substr(position+1, tmp.size()-1);
 			for (int i = 0; i < 13; i++)
 			{
 				if (s2 == low_letter[i])

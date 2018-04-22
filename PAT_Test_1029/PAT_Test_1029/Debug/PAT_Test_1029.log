@@ -1,0 +1,6 @@
+﻿  1029.cpp
+d:\c workspace\hbu-pat-work\pat_test_1029\pat_test_1029\1029.cpp(15): warning C4018: “<”: 有符号/无符号不匹配
+d:\c workspace\hbu-pat-work\pat_test_1029\pat_test_1029\1029.cpp(22): warning C4018: “<”: 有符号/无符号不匹配
+d:\c workspace\hbu-pat-work\pat_test_1029\pat_test_1029\1029.cpp(30): warning C4018: “<”: 有符号/无符号不匹配
+d:\c workspace\hbu-pat-work\pat_test_1029\pat_test_1029\1029.cpp(9): warning C4101: “tmp”: 未引用的局部变量
+  PAT_Test_1029.vcxproj -> D:\C WorkSpace\HBU-PAT-Work\PAT_Test_1029\Debug\PAT_Test_1029.exe

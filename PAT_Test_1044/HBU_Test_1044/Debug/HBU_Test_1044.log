@@ -1,3 +1,4 @@
-﻿  PAT_1044.cpp
-d:\c workspace\hbu-pat-work\hbu_test_1044\hbu_test_1044\pat_1044.cpp(13): warning C4018: “<”: 有符号/无符号不匹配
-  HBU_Test_1044.vcxproj -> D:\C WorkSpace\HBU-PAT-Work\HBU_Test_1044\Debug\HBU_Test_1044.exe
+﻿D:\Microsoft Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(HBU_Test_1044.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  PAT_1044.cpp
+d:\c workspace\hbu-pat-work\pat_test_1044\hbu_test_1044\pat_1044.cpp(13): warning C4018: “<”: 有符号/无符号不匹配
+  HBU_Test_1044.vcxproj -> D:\C WorkSpace\HBU-PAT-Work\PAT_Test_1044\HBU_Test_1044\Debug\PAT_Test_1044.exe
