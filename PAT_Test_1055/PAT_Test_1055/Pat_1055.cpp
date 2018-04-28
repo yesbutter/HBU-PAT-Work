@@ -1,39 +1,50 @@
-#define _CRT_SECURE_NO_WARNINGS
-#include<stdio.h>
-#include<vector>
-#include<iostream>
-#include<algorithm>
+#include <iostream>
+#include <algorithm>
+#include <vector>
+#include <string>
 
 using namespace std;
-
-struct Student
-{
-	char name[10];
-	int high;
+struct node {
+	string name;
+	int height;
 };
-
-bool cmp1(Student a, Student b)
-{
-	return a.high < b.high;
+int cmp(struct node a, struct node b) {
+	return a.height != b.height ? a.height > b.height : a.name < b.name;
 }
-
-int amian()
-{
-	vector<Student> v1,v2[11];
-	Student tmp;
-	int N, K;
-	cin >> N >> K;
-	for (int i = 0; i < N; i++)
-	{
-		scanf("%s%d", &tmp.name, &tmp.high);
-		v1.push_back(tmp);
+int main() {
+	int n, k, m;
+	cin >> n >> k;
+	vector<node> stu(n);
+	for (int i = 0; i < n; i++) {
+		cin >> stu[i].name;
+		cin >> stu[i].height;
 	}
-	sort(v1.begin(), v1.end(), cmp1);
-
-	for (int i = 0; i < N/K; i++)
-	{
-
+	sort(stu.begin(), stu.end(), cmp);
+	int t = 0, row = k;
+	while (row) {
+		if (row == k) {
+			m = n - n / k * (k - 1);
+		}
+		else {
+			m = n / k;
+		}
+		vector<string> stemp(m);
+		stemp[m / 2] = stu[t].name;
+		// 左边一列
+		int j = m / 2 - 1;
+		for (int i = t + 1; i < t + m; i = i + 2)
+			stemp[j--] = stu[i].name;
+		// 右边一列
+		j = m / 2 + 1;
+		for (int i = t + 2; i < t + m; i = i + 2)
+			stemp[j++] = stu[i].name;
+		// 输出当前排
+		cout << stemp[0];
+		for (int i = 1; i < m; i++)
+			cout << " " << stemp[i];
+		cout << endl;
+		t = t + m;
+		row--;
 	}
-
 	return 0;
 }

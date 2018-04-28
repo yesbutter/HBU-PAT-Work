@@ -1,0 +1,3 @@
+﻿  1084.cpp
+d:\c workspace\hbu-pat-work\pat_test_1084\pat_test_1084\1084.cpp(26): warning C4172: 返回局部变量或临时变量的地址: tmp
+  PAT_Test_1084.vcxproj -> D:\C WorkSpace\HBU-PAT-Work\PAT_Test_1084\Debug\PAT_Test_1084.exe
